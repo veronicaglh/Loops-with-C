@@ -22,7 +22,8 @@ int main(){
     /*This for loop will only be displayed when the user inputs a number besides 0 or negative value*/
     /*As soon as we run the program this loop will be displayed and thats because intialValue has a value different from 0*/
     /*The loop recieves a number from user(intialValue) and comapres it with num(0). If the value the user inputs is greater than num. It stores the greater value in num*/
-    
+    printf("This program will ask you to enter a numbers one by one.\n");
+    printf("Once you enter the number 0 or a negative number it will display the largest number entered.\n");
     for (int i = 0; intialValue > 0; i++){ 
         printf("Please enter the number: ");
         scanf("%f", &intialValue);
